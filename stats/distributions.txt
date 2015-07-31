@@ -1,0 +1,78 @@
+
+
+        Start              End      GOVtALLhighhostilityct GOVtALLeventstotals
+ 10/10/2004:  1    10/10/2009:  1   Min.   :  0.00         Min.   :-2067.3    
+ 10/10/2010:  1    10/11/2003:  1   1st Qu.:  6.00         1st Qu.: -389.7    
+ 10/11/2009:  1    10/11/2008:  1   Median : 19.00         Median : -193.4    
+ 10/1/2006 :  1    10/11/2014:  1   Mean   : 25.24         Mean   : -257.8    
+ 10/12/2003:  1    10/1/2005 :  1   3rd Qu.: 36.00         3rd Qu.:  -64.6    
+ 10/12/2008:  1    10/1/2011 :  1   Max.   :211.00         Max.   :  262.0    
+ (Other)   :751   (Other)    :751                                             
+ ALLtGOVeventstotals    Protests     
+ Min.   :-1724.7     Min.   :  0.00  
+ 1st Qu.: -177.8     1st Qu.:  5.00  
+ Median :  -78.1     Median : 13.00  
+ Mean   : -117.2     Mean   : 24.71  
+ 3rd Qu.:   -7.6     3rd Qu.: 30.00  
+ Max.   :  323.6     Max.   :501.00  
+                                     
+Standard Deviations
+ Start            		End 					GOVtALLhighhostilityct 
+ 218.67137              218.67137               24.84862 
+ GOVtALLeventstotals    ALLtGOVeventstotals     Protests 
+ 273.47696              174.98981               36.90116 
+
+
+GOVtALLhighhostilityct is nearly exponentially distributedd with rate parameter 0.039614841
+Protests is nearly exponentially distributed with rate parameter 0.040468299
+
+I suggest the skewed normal for GOVtALLeventstotals and a logistic for ALLtGOVeventstotals.
+
+Potential Skewed normal for GOVtALLeventstotals parameters
+
+        mean           sd           xi 
+-276.4949845  256.2837854    0.4440294 
+
+D = 0.0676, p-value = 0.03882
+
+Potential Cauchy for GOVtALLeventstotals parameters
+
+    location        scale   
+  -169.807450    136.791394 
+ (   8.329976) (   6.466886)
+
+D = 0.245, p-value < 2.2e-16
+
+
+Potential Logistic GOVtALLeventstotals parameters
+
+    location        scale   
+  -225.798092    142.108522 
+ (   8.935196) (   4.324868)
+
+D = 0.3374, p-value < 2.2e-16
+
+
+Potential Cauchy for ALLtGOVeventstotals parameters
+    location      scale   
+  -62.253076    73.676538 
+ (  4.402417) (  3.501228)
+D = 0.1244, p-value = 6.98e-10
+
+
+
+Potential Skewed Normal for ALLtGOVeventstotals parameters
+        mean           sd           xi 
+-136.4647778  159.9139620    0.5093667 
+
+D = 0.1238, p-value = 3.657e-06
+
+
+Potential Logistic for ALLtGOVeventstotals parameters
+
+    location      scale   
+  -94.052519    84.307495 
+ (  5.216126) (  2.610212)
+
+D = 0.0937, p-value = 8.631e-06
+
